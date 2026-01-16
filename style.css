@@ -99,12 +99,14 @@ hr
   width:100%;
   height:20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+
 }
 .box
 {
   border-left:1px solid white;
   height:40px;
+  WIDTH:20%;
 }
 .btn
 {
@@ -123,5 +125,82 @@ main a{
   color:white;
   text-decoration: none;
 }
+
+.work-experience {
+  padding: 40px 20px;
+   
+  color: #fff;
+  text-align: center;
+}
+
+.work-experience h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #4b2cf2;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.experience-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* for smaller screens */
+  justify-content: center;
+}
+
+.card {
+  background-color: #151738;
+  padding: 20px 25px;
+  border-radius: 15px;
+  width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #9b59b6; /* purple highlight */
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+  border:2px solid white;
+}
+
+#About
+{
+  height:50px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  font-size: larger;
+  color:white;
+}
+footer{
+  background-color: rgb(18,18,62);
+  height:100px;
+  display: flex;
+  justify-content: center;
+  color:white;
+  font-size: large;
+  align-items: center;
+}
+#describe
+{
+  color:white;
+  width:10%;
+  margin-left: 100px;
+  
+}
+
+
+
 
 
