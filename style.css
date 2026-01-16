@@ -61,6 +61,7 @@ body
   width:350px;
   background-image: url("developer.png");
   background-size: cover;
+  background-color:aqua;
 }
 .name
 {
@@ -199,6 +200,7 @@ footer{
   margin-left: 100px;
   
 }
+
 
 
 
