@@ -61,7 +61,7 @@ body
   width:350px;
   background-image: url("developer.png");
   background-size: cover;
-  min-height:220px;
+  
 }
 .name
 {
@@ -200,6 +200,7 @@ footer{
   margin-left: 100px;
   
 }
+
 
 
 
